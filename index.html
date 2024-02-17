@@ -4,122 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lobatchewsky</title>
-    <link rel="preload" href="css/normalize.css" as="style">
-    <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Pangolin&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Pangolin&family=Shadows+Into+Light&display=swap" rel="stylesheet">
-
-    
     <link rel="preload" href="css/styles.css" as="style">
     <link href="css/styles.css" rel="stylesheet">
     <link rel="icon" href="img/iconLoba.png">
+    <script src="https://kit.fontawesome.com/e271be1f84.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
 </head>
+
 <body>
-    <div>
-        <main class="banner">
-            <div >
-                <header class="title">
+    <div class="contenedor">
+        <header class="header">
+            <nav class="nav">
+                <div>
+                    <img src="img/iconLoba.png" class="nav-menu-link logo">
+                </div>
+                <div class="title">
                     <h1>Club de Matemáticas Lobatchewsky</h1>
-                </header>
-                <div class="bar-nav">
-                    <nav class="navegacion-principal">
-                        <img src="img/Imagen1.jpg" alt="" class="logo">
-                        <a href="#">Acerca de CML</a>
-                        <a href="#">Próximos cursos</a>
-                        <a href="#">Servicios</a>
-                        <a href= "#">Galería</a>
-                    </nav>
                 </div>
-                <div class="contenido-banner">
-                    <div class="eslogan">
-                        <h1>¡INGRESA a </h1>
-                        <h1 class="eslogan-uni">UNIVERSIDAD!</h1>
-                        <p class="eslogan-pie">"Vive la <span>experiencia</span> Lobatchewsky"</p>
-                    </div>
-                    <div class="mascota">
-                       <div>
-                        <p class="text-banner">¡Prepárate!</p>
-                       </div>
-                        <div>
-                            <img src="img/Imagen1_070746.png" alt="" class="mascota-pos">
-                        </div> 
-                    </div>
+                <button class="bars" aria-label="Abrir menú"><i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="nav-menu nav-menu_visible">
+                    <li class="nav-menu-item">
+                        <a href="#" class="nav-menu-link nav-link">Servicios</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="#" class="nav-menu-link nav-link">Próximos cursos</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="#" class="nav-menu-link nav-link">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="#" class="nav-menu-link nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="banner">
+            <div class="banner-info">
+                <div>
+                    <p>Contáctanos</p>
                 </div>
+                <div class="search">
+                    
+                        <textarea name="" class="search-content_input" aria-label="Enviar mensaje"></textarea>
+                    
+                </div>
+                    
+            </div>
+            <div class="banner-img">
+                
             </div>
         </main>
         <div class="line">
         </div>
-        <div class="acerca-de">
-            <div class="acerca-de-contenido">
-                <h1>ACERCA DE NOSOTROS</h1>
-                <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id ornare arcu odio ut sem nulla pharetra diam. Semper risus in hendrerit gravida. Et magnis dis parturient montes. Mi tempus imperdiet nulla malesuada. Curabitur gravida arcu ac tortor dignissim. Facilisi nullam vehicula ipsum a arcu cursus. Vestibulum sed arcu non odio. 
-                        </p>
-                        <p> Quis varius quam quisque id diam vel quam elementum pulvinar. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Enim nunc faucibus a pellentesque sit amet porttitor. Nec nam aliquam sem et tortor consequat id porta. Sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Lorem ipsum dolor sit amet. Est sit amet facilisis magna etiam tempor orci. A pellentesque sit amet porttitor eget dolor morbi non arcu. Sit amet tellus cras adipiscing enim eu turpis.
-                        </p>
-                </div>
-            </div>
-            <div class="acerca-de-img">
-                <div><img src="img/banner-vertical.png" alt=""></div>
-                
-            </div>
-                
-
-        </div>
         
-        <div class="noticias">
-            <div class="line">
-            </div>
-            <div class="avisos">
-                <h1>Próximos cursos</h1>
-                <div class="banner-aviso">
-                    <img src="img/cursoBach.jpg" alt="">
-                    <img src="img/cursoUni.jpg" alt="">
-
-                </div>
-
-            </div>
-        </div>
-        <div class="line">
-        </div>
-
-        <div class="noticias">
-            <div class="line">
-            </div>
-            <div class="avisos">
-                <h1>Nuestros servicios</h1>
-                <div class="servicios">
-                   <div>
-                    <img src="img/primaria.png" alt="">
-                   </div> 
-
-                   <div>
-                    <img src="img/secundaria.png" alt="">
-                   </div>
-
-                    <div>
-                        <img src="img/bachillerato.png" alt="">
-                    </div>
-                    
-                    <div>
-                        <img src="img/universidad.png" alt="">
-                    </div>
-
-                    <div>
-                        <img src="img/particular.png" alt="">
-
-                    </div>
-                    
-                </div>            
-
-            </div>
-        </div>
         
         <footer class="footer">
             <p>Todos los derechos reservados. Club de Matemáticas Lobatchewsky</p>
-        </footer>    
-
-    </div> 
+        </footer>  
+    </div>
+    
 </body>
 </html>
